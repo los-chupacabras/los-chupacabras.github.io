@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+	<link href="styles.css" rel="stylesheet" type="text/css" media="all" />
+	<title>Welcome to the meowtistic world!</title>
+	
+
+	<script> 
+		function numCheck() {
+		    var x, text;
+
+		    // Get the value of the input field with id="numb"
+		    x = document.getElementById("numb").value;
+
+		    // If x is Not a Number or less than one or greater than 10
+		    if (isNaN(x) || x < 1 || x >10 ) {
+		        text = "Input not valid";
+		    } 
+		    else {
+		        text = "Input OK";
+		    }
+		    document.getElementById("demo").innerHTML = text;
+		}
+
+
+		function randomFunc() {
+		    document.getElementById("random").innerHTML = Math.floor((Math.random() * 100) + 1);
+		}
+	</script>
+	
+	<body>
+		<div class="wrapper">
+			<div id="top">
+				<h1 class="logo"><a href="index.html">&nbspPurrposely Adorable</a></h1>
+				<p style= "float:left">&nbspPurrposely Adorable</p>
+				<div id = "head">
+					 <ul>
+						<li><a href = "survey.html"> Survey</a></li>
+						<li><a href = "info.html"> Information</a></li>
+						<li><a href="about.html">About me</a></li>
+						<li><a class="active" href="index.html">Home</a></li>
+					</ul>
+				</div>
+			</div>
+			<br><br><br><br>
+			
+			<div id = "news">
+				<table>
+					<h1 style="color:#31a1ff;"> Bulletin Board:</h1>
+						<ul>
+							<li><p> Please fill out our survey <a href = "survey.html">here!</a></p></li>
+							<li><p> Want to get to Andres? Go <a href = "about.html">here!</a></p></li>
+							<li><p> Information regarding User Agents <a href="info.html">here!</p></a></li>
+						</ul>
+				</table>
+			</div>
+			
+			<div id="contentPane">
+				<center><h1 style="color:#31a1ff;"> Welcome to my cat-tastic page!</h1></center>
+				<iframe src="https://player.vimeo.com/video/54785974" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+				<p>Cute cat video by Jungwoo Park.</p>
+				
+				<div class="push"></div>
+			</div>
+			
+		</div>
+			
+		<div id = "foot">
+			<p> Made by Andres A. Acevedo<br>
+				 &#169;Any images used are not made by Andres and are used to demonstrate a non-profit website used for a university project.</p>
+			<ul>
+				<li><a class = "active" href="index.html">Home</a></li>
+				<li class="space">|</li>
+				<li><a href="about.html">About me</a></li>	
+				<li class="space">|</li>
+				<li><a href = "info.html"> Information</a></li>
+				<li class="space">|</li>
+				<li><a href = "survey.html"> Survey</a></li>
+				<li class="space">|</li>
+				<li><a href="http://validator.w3.org/check?uri=referer">xHtml</a></li>
+			</ul>
+		</div>
+	</body>
+</html>

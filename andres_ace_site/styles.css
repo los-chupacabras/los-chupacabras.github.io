@@ -1,0 +1,146 @@
+html{
+	height: 100%;
+	}
+
+body{
+	font-family:"Trebuchet MS";
+	background:url(images/background.png);
+	height: 100%;
+	}
+
+li	{
+	list-style:none
+	}
+
+#head ul li:first-child{
+	margin:0
+	}
+	
+#news{
+	width: 350px;
+	border-width: 2px;
+	border-color: blue;
+	border-style: solid;
+	display:block-inline;
+	background:url(images/news.png);
+	}
+	
+#head ul li	a,#head ul li a.active{
+	width:auto; 
+	height:34px; 
+	padding:0 23px; 
+	float:right; 
+	color:inherit; 
+	background:#252525
+	}
+
+#head ul li	a:hover,#head ul li a.active{
+	color:#31a1ff; 
+	background:#272727
+	}
+	
+#contentPane{
+	text-align: center;
+	position:relative;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+	font-size:18px; 
+	display:block-inline;
+	}
+		
+#survey{
+    display: block;
+    margin-left: 50px;
+    margin-right: 50px }
+	}
+		
+#about{
+	text-align:center;
+	background: url(images/table_bg.png);
+	display: block;
+	margin-left: 400px;
+	margin-right: 400px;
+	}
+		
+#top{
+	width:100%; 
+	height:50px; 
+	float:left; 
+	margin:0px auto;
+	border:1px solid #CCC;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+	font-size:14px; 
+	color:#767676; 
+	position: relative;
+	background-color:#252525 
+	}
+		
+#login{
+	float:left;
+	display:inline-block;
+	margin-right:10px;
+	}
+		
+#foot ul{
+	width:350px; 
+	margin:11px auto 0 auto
+	}
+
+#foot ul li{
+	width:auto; 
+	float:left; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+	font-size:14px; 
+	color:#767676; 
+	line-height:18px
+	}
+
+#foot ul li a{
+	width:auto; 
+	float:left; 
+	color:inherit
+	}
+	
+#foot ul li.space{
+	width:auto; 
+	float:left; 
+	padding:0 6px
+	}
+		
+#foot {
+	margin:28px auto 0 auto;
+	width:100%; 
+	height: 95px;
+	text-align:center;
+	float:left; 
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; 
+	font-size:14px; 
+	color:#767676; 
+	background:url(images/footBg.png) repeat-x
+	}
+
+#foot .push{
+	height: 2em;
+	}
+
+
+h1.logo{
+	width:67px; 
+	height:47px; 
+	margin-top:1px; 
+	float:left; 
+	background:url(images/cat-logo2.png) no-repeat
+	}
+
+h1.logo a{
+	width:100%; 
+	height:100%; 
+	float:left; 
+	text-indent:-9999px
+	}
+
+.wrapper{
+	min-height: 100%;
+	height: auto !important; 
+	height: 100%;
+	margin: 0 auto -2em; 
+}
