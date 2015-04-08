@@ -1,0 +1,45 @@
+#navTop{
+	width:800px;
+	border: 2px solid #D9C021;
+	
+}
+
+#navSide{
+	float:left;
+	border: 4px solid #D9C021;
+	background-image:url(pw_maze_white.png);
+}
+body{
+	background-image:url(footer_lodyas.png);
+}
+
+#navList{
+	list-style-type:none;
+	margin:0;
+	padding:0;
+}
+
+#liTop{
+	display:inline;
+	padding:20px;
+	}
+	
+#aTop{
+	color: #D9C021;
+}
+
+.container{
+	margin:0 auto;
+	width:800px;
+	background-image:url(pw_maze_white.png);
+	border: 2px solid #D9C021;
+}
+
+#rank_col{
+	text-align:middle;
+	text-align:center;
+}
+
+#winloss_col{
+	text-align:center;
+}
